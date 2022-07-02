@@ -18,3 +18,5 @@ function smoothAnimation() {
     requestAnimationFrame(smoothAnimation)
 }
 requestAnimationFrame(smoothAnimation)
+
+// o que move é a cenario não o jogador.
