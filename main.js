@@ -11,12 +11,12 @@ var player = {
     y: 0
 }
 
-function smoothAnimation() {
+function Draw() {
     ctx.fillStyle = "black"
     ctx.fillRect(0,0,500,500)
     // animtion
-    requestAnimationFrame(smoothAnimation)
+    requestAnimationFrame(Draw)
 }
-requestAnimationFrame(smoothAnimation)
+requestAnimationFrame(Draw)
 
-// o que move é a cenario não o jogador.
+// o que move é a camera em função do cenario não o jogador.
