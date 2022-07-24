@@ -22,6 +22,8 @@ const map = [
 
 var scale = 4
 function Update(){
+    c.fillStyle = 'black';
+    c.fillRect(0,0,512,521)
      // Uma gambiarra do carambulango
      for (var y = 0; y < map.length; y++) {
         for (var x = 0; x < map[y].length; x++) {
